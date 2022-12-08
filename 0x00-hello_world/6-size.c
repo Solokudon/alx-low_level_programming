@@ -2,7 +2,7 @@
 /**
  * main - print out size of data types in c
  * code by Soloku
- * return: (0)
+ * return: Always 0 (Success)
  */
 int main(void)
 {
@@ -18,5 +18,5 @@ int main(void)
 	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
 	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 		return (0);
- }
+}
 
