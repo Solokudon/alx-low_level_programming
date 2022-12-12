@@ -1,22 +1,25 @@
 #include <stdio.h>
-/**
- * main - all possible combinations
+/*
+ *
+ * main - entry point
  * Return: Always 0
  */
+
 int main(void)
+
 {
-	int n;
+	int c = 0;
+	while (c < 10)
 
-	for (n = 45; n < 58; n++)
 	{
-		putchar(n);
-		if (n != 57)
+		putchar(48 + c);
+		if (c != 9)
+		{
 			putchar(',');
-		putchar(' ');
+			putchar(' ');
 		}
-
-		putchar('\n');
-
-		return (0);
-
+		c++;
+	}
+	putchar('\n');
+	return (0);
 }
